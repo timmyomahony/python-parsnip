@@ -4,6 +4,7 @@ import cookielib
 from lxml import etree
 
 DEBUG = False
+VERSION = "0.0.1"
 
 import logging
 logger = logging.getLogger(__name__)
