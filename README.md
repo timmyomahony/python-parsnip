@@ -1,4 +1,4 @@
-### Parsnip ###
+##Parsnip##
 
 ![Screenshot](https://github.com/pastylegs/python-parsnip/raw/master/parsnip-screen-small.jpg)
 
@@ -13,7 +13,7 @@
 
 	pip install -e git+https://github.com/pastylegs/python-parsnip.git#egg=parsnip
 	
-###Usage###
+##Usage##
 
 	import parsnip
 	texter = parsnip.get_webtexter("Meteor", "0851111111", "1234")
@@ -30,14 +30,14 @@
   * `send(message, recipients)` : sends a web text to the provided recipients, where `recipient` is either a comma separated string of phone numbers, or a list of phone numbers. 
   * `get_remaining_webtexts` : returns an integer 
 
-###Features###
+##Features##
 
 * For messages that have more characters then the provider allows (i.e. sending a message greater than 160 characters on Three), the message will be broken into smaller chunks and sent separately. The same can be said for recipients : if there are more recipients then the provider handles, they are split up and the message numerous times
 
-###TODO###
+##TODO##
 
 * incorporate group texting
 * add ellipses to chunked messages
 
-###Contact###
+##Contact##
 [timmy@pastylegs.com](mailto://timmy@pastylegs.com)
