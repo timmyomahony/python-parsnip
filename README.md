@@ -1,6 +1,6 @@
 ### Parsnip ###
 
-![Screenshot](https://github.com/pastylegs/python-parsnip/blob/master/parsnip-screen-small.jpg)
+![Screenshot](https://github.com/pastylegs/python-parsnip/raw/master/parsnip-screen-small.jpg)
 
 `Parsnip` is a basic python interface to allow the sending of web texts via the main 4 Irish mobile operators websites. It is influenced by [cabbage](http://cabbagetexter.com/), a popular `php` implementation. 
 
