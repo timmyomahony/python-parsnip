@@ -12,10 +12,17 @@
 	import parsnip
 	texter = parsnip.get_webtexter("Meteor", "0851111111", "1234")
 	texter.login()
-	texter.send("Heyo", ["0866666666", ["0877777777", "0863333333"])
+	texter.send("Heyo", ["0866666666", "0877777777", "0863333333"])
 	print texter.get_remaining_webtexts()
 	255
+    texter.logout()
 	
+* `get_webtexter(operator, phone_number, online_pin)` : is a factory method which returns an instance of `Webtexter`. 
+* A webtexter instance has the following methods:
+  * `login()` : login to remote operator site
+  * `logout()` : clear cookies and perform logout on remote operator site
+  * `send(message, recipients)` : sends a web text to the provided recipients, where `recipient` is either a comma separated string of phone numbers, or a list of phone numbers. 
+  * `get_remaining_webtexts` : returns an integer 
 
 ###Features###
 
@@ -27,4 +34,4 @@
 * add ellipses to chunked messages
 
 ###Contact###
-timmy@pastylegs.com
+[timmy@pastylegs.com](mailto://timmy@pastylegs.com)
