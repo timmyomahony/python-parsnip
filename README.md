@@ -9,6 +9,10 @@
 * **Vodafone** : [http://vodafone.ie](https://www.vodafone.ie/myv/messaging/webtext/Process.shtml)
 * **Three** : [http://three.ie](http://webtext.three.ie/send.jsp)
 
+##Install##
+
+	pip install -e git+https://github.com/pastylegs/python-parsnip.git#egg=parsnip
+	
 ###Usage###
 
 	import parsnip
