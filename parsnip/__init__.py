@@ -11,6 +11,8 @@ logger = logging.getLogger(__name__)
 if DEBUG:
 	logging.basicConfig(level=logging.DEBUG)
 
+from parsnip import utils 
+
 class Webtext(object):
 	"""
 	Represents a webtext to be sent to a list of recipients. It does some simple
