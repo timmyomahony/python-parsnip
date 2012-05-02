@@ -9,7 +9,7 @@
 
 ##Install##
 
-	pip install -e git+https://github.com/timmyomahony/python-parsnip.git#egg=parsnip
+Either `pip install python-parsnip` or get the latest code via GitHub with `pip install -e git+https://github.com/timmyomahony/python-parsnip.git#egg=python-parsnip`
 	
 ##Usage##
 
