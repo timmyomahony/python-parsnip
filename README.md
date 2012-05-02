@@ -30,11 +30,10 @@ Either `pip install python-parsnip` or get the latest code via GitHub with `pip 
 
 ##Features##
 
-* For messages that have more characters then the provider allows (i.e. sending a message greater than 160 characters on Three), the message will be broken into smaller chunks and sent separately. The same can be said for recipients : if there are more recipients then the provider handles, they are split up and the message numerous times
+* __Chunking:__ For messages that have more characters then the provider allows (i.e. sending a message greater than 160 characters on Three), the message will be broken into smaller chunks and sent separately. The same can be said for recipients : if there are more recipients then the provider handles, they are split up and the message numerous times
 
 ##TODO##
 
-* incorporate group texting
 * add ellipses to chunked messages
 
 ##Contact##
