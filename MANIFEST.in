@@ -1,4 +1,4 @@
 include *.txt
 include *.md
-recursive-include parsnip/ *
-
+include parsnip/*
+include parsnip/operators/*

@@ -15,6 +15,7 @@ setup(
     url='https://github.com/timmyomahony/python-parsnip',
     install_requires=[
       'lxml', 
+      'BeautifulSoup', 
     ],
-    packages=['parsnip'], 
+    packages=['parsnip', 'parsnip.operators'], 
 )
