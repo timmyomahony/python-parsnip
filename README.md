@@ -1,4 +1,6 @@
-*BE WARNED: This code is no longer maintained and is unlikely to work due to updates on the mobile proviers webtexting applications**
+**WARNING** This code is no longer maintained and is unlikely to work due to updates on the mobile proviers webtexting applications
+
+---
 
 ![Screenshot](https://github.com/timmyomahony/python-parsnip/raw/master/parsnip-screen-small.jpg)
 
@@ -9,11 +11,11 @@
 * **Vodafone** : [http://vodafone.ie](https://www.vodafone.ie/myv/messaging/webtext/Process.shtml)
 * **Three** : [http://three.ie](http://webtext.three.ie/send.jsp)
 
-##Install##
+## Install
 
 Either `pip install python-parsnip` or get the latest code via GitHub with `pip install -e git+https://github.com/timmyomahony/python-parsnip.git#egg=python-parsnip`
 	
-##Usage##
+## Usage
 
 	import parsnip
 	texter = parsnip.get_webtexter("Meteor", "0851111111", "1234")
@@ -30,13 +32,6 @@ Either `pip install python-parsnip` or get the latest code via GitHub with `pip 
   * `send(message, recipients)` : sends a web text to the provided recipients, where `recipient` is either a comma separated string of phone numbers, or a list of phone numbers. 
   * `get_remaining_webtexts` : returns an integer 
 
-##Features##
+## Features
 
 * __Chunking:__ For messages that have more characters then the provider allows (i.e. sending a message greater than 160 characters on Three), the message will be broken into smaller chunks and sent separately. The same can be said for recipients : if there are more recipients then the provider handles, they are split up and the message numerous times
-
-##TODO##
-
-* add ellipses to chunked messages
-
-##Contact##
-[me@timmyomahony.com](mailto://me@timmyomahony.com)
